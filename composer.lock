@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8883331a03f17c1befb33b106b09f50d",
+    "packages": [
+        {
+            "name": "great-scott-plugins/wordpress-plugin",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Great-Scott-Plugins/WordPress-Plugin.git",
+                "reference": "5cba69cdb06f77a7282c264b105743512f3ec6da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Great-Scott-Plugins/WordPress-Plugin/zipball/5cba69cdb06f77a7282c264b105743512f3ec6da",
+                "reference": "5cba69cdb06f77a7282c264b105743512f3ec6da",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.20"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GreatScottPlugins\\WordPressPlugin\\": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Great Scott Plugins",
+                    "email": "scotts@greatscottplugins.com",
+                    "homepage": "https://greatscottplugins.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library to use as basis for WordPress plugins.",
+            "support": {
+                "source": "https://github.com/Great-Scott-Plugins/WordPress-Plugin/tree/1.0.0",
+                "issues": "https://github.com/Great-Scott-Plugins/WordPress-Plugin/issues"
+            },
+            "time": "2021-07-28T07:01:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.3.5"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
