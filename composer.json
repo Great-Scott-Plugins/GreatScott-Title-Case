@@ -1,10 +1,11 @@
 {
-    "name": "great-scott-plugins/greatscott-title-case",
-    "description": "Title Case tool for WordPress Gutenberg editor.",
-    "type": "wordpress-plugin",
-    "require": {
-        "php": ">=7.3.5",
-        "great-scott-plugins/wordpress-plugin": "1.*"
+    "name": "great-scott-plugins/greatscott-title-tools",
+    "description": "Title Tools for WordPress.",
+    "type": "wordpress-plugins",
+    "autoload": {
+        "psr-4": {
+            "GreatScottPlugins\\GreatScottTitleTools\\": "src/"
+        }
     },
     "repositories": [
         {
@@ -12,11 +13,14 @@
             "url": "https://github.com/Great-Scott-Plugins/WordPress-Plugin.git"
         }
     ],
-    "license": "GPL-3.0-or-later",
-    "autoload": {
-        "psr-4": {
-            "GreatScottPlugins\\GreatScottTitleCase\\": "src/"
+    "authors": [
+        {
+            "name": "Scott Weaver",
+            "email": "sweaver@greatscottplugins.com"
         }
-    },
-    "minimum-stability": "stable"
+    ],
+    "require": {
+        "php": ">=7.3.5",
+        "great-scott-plugins/wordpress-plugin": "1.*"
+    }
 }

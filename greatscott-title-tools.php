@@ -1,17 +1,18 @@
 <?php
+
 /**
- * Plugin Name: GreatScott Title Case
- * Plugin URI: https://greatscottplugins.com/title-case/
- * Description:
+ * Plugin Name: GreatScott Title Tools
+ * Plugin URI: https://greatscottplugins.com
+ * Description: GreatScott Title Tools will help you keep your titles tidy!
  * Author: GreatScottPlugins
  * Author URI: https://greatscottplugins.com
  * Version: 1.0.0
- * Text Domain: title-case
+ * Text Domain: greatscott-title-tools
  * Domain Path: /languages/
- * Min WP Version: 4.9.7
- * Requires PHP: 5.7
+ * Min WP Version: 5.0
+ * Requires PHP: 5.9
  *
- * Copyright (c) 2021 Great Scott Plugins
+ * Copyright (c) 2022 Great Scott Plugins
  *
  * GNU General Public License, Free Software Foundation <https://www.gnu.org/licenses/gpl-3.0.html>
  *
@@ -28,14 +29,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * @package     GreatScottPlugins\GreatScottTitleCase
+ * @package     GreatScottPlugins\GreatScottTitleTools
  * @author      GreatScottPlugins
- * @copyright   Copyright (C) 2021 GreatScottPlugins. All rights reserved.
+ * @copyright   Copyright (C) 2022 GreatScottPlugins. All rights reserved.
  *
  **/
 
+use GreatScottPlugins\GreatScottTitleTools\Load;
+
 require_once __DIR__ . '/vendor/autoload.php';
 
-use GreatScottPlugins\GreatScottTitleCase\TitleCasePlugin;
-
-TitleCasePlugin::load(__FILE__);
+Load::load();
