@@ -1,6 +1,6 @@
 {
     "name": "great-scott-plugins/greatscott-title-tools",
-    "description": "Title tools for WordPress.",
+    "description": "Title Tools for WordPress.",
     "type": "wordpress-plugins",
     "autoload": {
         "psr-4": {
